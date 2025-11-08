@@ -8,8 +8,8 @@ import CosmicBadge from '@/components/CosmicBadge'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Professional Hair Braiding & Styling Studio',
-  description: "Expert braiding and styling services for all hair types. Specializing in box braids, cornrows, weaves, and natural hair care with personalized service.",
+  title: 'Cunning Braids Studio - Professional Hair Braiding for Men & Women',
+  description: "Expert braiding services for all hair types. Specializing in knotless braids, cornrows, faux locs, box braids, and more. Professional styling for both men and women.",
 }
 
 export default function RootLayout({

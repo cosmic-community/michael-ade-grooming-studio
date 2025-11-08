@@ -20,9 +20,9 @@ export default async function HomePage() {
       <section id="services" className="py-20 px-4 bg-secondary-light">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-4">Our Services</h2>
+            <h2 className="text-4xl font-bold mb-4">Our Braiding Services</h2>
             <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-              Expert braiding and styling services for all hair types and textures
+              Expert braiding and protective styling for all hair types, lengths, and textures. Services for both men and women.
             </p>
           </div>
           <ServiceGrid services={services} />
@@ -32,9 +32,9 @@ export default async function HomePage() {
       <section id="team" className="py-20 px-4 bg-secondary">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-4">Meet Our Team</h2>
+            <h2 className="text-4xl font-bold mb-4">Meet Our Braiding Specialists</h2>
             <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-              Talented stylists specializing in braids, weaves, and natural hair care
+              Talented braiding artists specializing in protective styles, natural hair care, and creative braiding techniques
             </p>
           </div>
           <TeamSection team={team} />
@@ -46,7 +46,7 @@ export default async function HomePage() {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-4">Client Reviews</h2>
             <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-              See what our clients have to say about their transformations
+              See what our clients have to say about their braiding experience and beautiful results
             </p>
           </div>
           <TestimonialSection testimonials={testimonials} />

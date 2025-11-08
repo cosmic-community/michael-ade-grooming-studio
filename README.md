@@ -1,16 +1,16 @@
-# Marcus J. Grooming Studio
+# Cunning Braids Studio
 
-![Marcus J. Grooming Studio](https://imgix.cosmicjs.com/cdfbd8c0-bca7-11f0-8893-ab943f57b671-photo-1585747860715-2ba37e788b70-1762608935398.jpg?w=1200&h=300&fit=crop&auto=format,compress)
+![Cunning Braids Studio](https://imgix.cosmicjs.com/cdfbd8c0-bca7-11f0-8893-ab943f57b671-photo-1585747860715-2ba37e788b70-1762608935398.jpg?w=1200&h=300&fit=crop&auto=format,compress)
 
-A modern, professional website for Marcus J. Grooming Studio - a premium men's grooming salon. Built with Next.js 16 and powered by Cosmic CMS, featuring WhatsApp appointment booking, service showcases, team profiles, client testimonials, and transformation case studies.
+A modern, professional website for Cunning Braids Studio - a premium braiding salon specializing in protective styles for both men and women. Built with Next.js 16 and powered by Cosmic CMS, featuring WhatsApp appointment booking, service showcases, team profiles, client testimonials, and braiding transformation galleries.
 
 ## ✨ Features
 
 - **WhatsApp Booking Integration** - Direct appointment scheduling through WhatsApp with pre-filled messages
-- **Dynamic Service Pages** - Showcase services with detailed descriptions, pricing, and professional imagery
-- **Team Member Profiles** - Highlight staff expertise with photos, bios, and specialties
+- **Dynamic Service Pages** - Showcase braiding services with detailed descriptions, pricing, and professional imagery
+- **Team Member Profiles** - Highlight braiding specialists' expertise with photos, bios, and specialties
 - **Client Testimonials** - Display authentic reviews with star ratings and service associations
-- **Before/After Case Studies** - Transformation galleries showing professional results
+- **Before/After Galleries** - Braiding transformation showcases demonstrating professional results
 - **Responsive Design** - Optimized experience across all devices
 - **Dark Theme UI** - Sophisticated design with warm accent colors
 - **SEO Optimized** - Proper meta tags and structured data for search engines
@@ -28,11 +28,11 @@ This application was built using the following prompts to generate the content s
 
 ### Content Model Prompt
 
-> "Create a content model for a company website with services, team members, testimonials, and case studies for a hair dressing company owned by a man. it should be able to allow customers to book appointment through whatsapp into the owners DM"
+> "Create a content model for a braiding studio website with services, team members, testimonials, and case studies. The studio specializes in braids for both men and women and should allow customers to book appointments through WhatsApp."
 
 ### Code Generation Prompt
 
-> Based on the content model I created for "Create a content model for a company website with services, team members, testimonials, and case studies for a hair dressing company owned by a man. it should be able to allow customers to book appointment through whatsapp into the owners DM", now build a complete web application that showcases this content. Include a modern, responsive design with proper navigation, content display, and user-friendly interface.
+> Based on the content model for a braiding studio that serves both men and women, build a complete web application that showcases braiding services, team profiles, client testimonials, and transformation galleries. Include a modern, responsive design with proper navigation, content display, and WhatsApp booking integration.
 
 The app has been tailored to work with your existing Cosmic content structure and includes all the features requested above.
 
@@ -50,14 +50,14 @@ The app has been tailored to work with your existing Cosmic content structure an
 ### Prerequisites
 
 - Node.js 18+ or Bun runtime
-- A Cosmic account with a bucket containing the grooming studio content
+- A Cosmic account with a bucket containing the braiding studio content
 
 ### Installation
 
 1. **Clone the repository**
 ```bash
 git clone <your-repo-url>
-cd marcus-grooming-studio
+cd cunning-braids-studio
 ```
 
 2. **Install dependencies**
@@ -148,11 +148,12 @@ This application uses Cosmic CMS for all content management. The content model i
 
 ### Object Types
 
-1. **Services** - Grooming services with pricing and descriptions
+1. **Services** - Braiding services with pricing and descriptions
    - Service name, description, price, duration
    - Service images optimized with imgix
+   - Examples: Knotless Braids, Cornrows, Faux Locs, Box Braids
 
-2. **Team Members** - Staff profiles and expertise
+2. **Team Members** - Braiding specialist profiles
    - Name, role, bio, specialties, years of experience
    - Professional photos
 
@@ -160,10 +161,10 @@ This application uses Cosmic CMS for all content management. The content model i
    - Client name, review text, star rating
    - Associated service and date
 
-4. **Case Studies** - Transformation showcases
+4. **Case Studies** - Braiding transformation showcases
    - Project title, client name, description
    - Before/after photos, gallery images
-   - Related services used
+   - Related braiding services used
 
 5. **Site Settings** - Business information (singleton)
    - Business name, tagline, about text
@@ -177,7 +178,7 @@ The application includes a WhatsApp booking button that:
 - Pre-fills a message from Site Settings
 - Opens WhatsApp with the business phone number
 - Works on both mobile and desktop
-- Provides seamless appointment scheduling
+- Provides seamless appointment scheduling for braiding services
 
 ## 📱 Deployment
 

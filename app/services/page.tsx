@@ -2,8 +2,8 @@ import { getServices } from '@/lib/cosmic'
 import ServiceCard from '@/components/ServiceCard'
 
 export const metadata = {
-  title: 'Services - Hair Braiding & Styling Studio',
-  description: 'Explore our professional braiding and styling services including box braids, cornrows, weaves, natural hair care, and more.',
+  title: 'Braiding Services - Cunning Braids Studio',
+  description: 'Explore our professional braiding services including knotless braids, cornrows, faux locs, box braids, and more. Expert protective styling for all hair types.',
 }
 
 export default async function ServicesPage() {
@@ -13,10 +13,10 @@ export default async function ServicesPage() {
     <div className="py-20 px-4">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h1 className="text-5xl font-bold mb-4">Our Services</h1>
+          <h1 className="text-5xl font-bold mb-4">Our Braiding Services</h1>
           <p className="text-gray-400 text-xl max-w-3xl mx-auto">
-            Premium braiding and styling services for all hair types. 
-            Each service includes a consultation to create the perfect look for you.
+            Premium braiding and protective styling services for all hair types and textures. 
+            Each service includes a consultation to create the perfect braided look for you.
           </p>
         </div>
         

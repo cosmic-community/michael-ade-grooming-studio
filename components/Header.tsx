@@ -12,18 +12,18 @@ export default async function Header() {
             {settings?.metadata.logo?.imgix_url ? (
               <img
                 src={`${settings.metadata.logo.imgix_url}?w=100&h=100&fit=crop&auto=format,compress`}
-                alt={settings.metadata.business_name}
+                alt={settings.metadata.business_name || 'Cunning Braids Studio'}
                 width={50}
                 height={50}
                 className="rounded-full"
               />
             ) : (
               <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center">
-                <span className="text-secondary font-bold text-xl">H</span>
+                <span className="text-secondary font-bold text-xl">CB</span>
               </div>
             )}
             <div>
-              <h1 className="text-xl font-bold">{settings?.metadata.business_name || 'Hair Styling Studio'}</h1>
+              <h1 className="text-xl font-bold">{settings?.metadata.business_name || 'Cunning Braids Studio'}</h1>
               {settings?.metadata.tagline && (
                 <p className="text-sm text-primary">{settings.metadata.tagline}</p>
               )}
@@ -37,7 +37,7 @@ export default async function Header() {
             <Link href="/#testimonials" className="hover:text-primary">Reviews</Link>
             {settings?.metadata.whatsapp_number && (
               <a
-                href={`https://wa.me/${settings.metadata.whatsapp_number.replace(/[^0-9]/g, '')}?text=${encodeURIComponent(settings.metadata.booking_message || 'Hi! I would like to book an appointment for hair braiding.')}`}
+                href={`https://wa.me/${settings.metadata.whatsapp_number.replace(/[^0-9]/g, '')}?text=${encodeURIComponent(settings.metadata.booking_message || 'Hi! I would like to book an appointment at Cunning Braids Studio.')}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-6 py-2 bg-primary text-secondary rounded-full font-semibold hover:bg-primary-dark transition-colors"
