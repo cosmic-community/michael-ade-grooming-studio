@@ -22,7 +22,7 @@ export default async function HomePage() {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-4">Our Services</h2>
             <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-              Professional grooming services tailored to your style and needs
+              Expert braiding and styling services for all hair types and textures
             </p>
           </div>
           <ServiceGrid services={services} />
@@ -34,7 +34,7 @@ export default async function HomePage() {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-4">Meet Our Team</h2>
             <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-              Expert stylists dedicated to making you look and feel your best
+              Talented stylists specializing in braids, weaves, and natural hair care
             </p>
           </div>
           <TeamSection team={team} />
@@ -46,7 +46,7 @@ export default async function HomePage() {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-4">Client Reviews</h2>
             <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-              See what our clients have to say about their experience
+              See what our clients have to say about their transformations
             </p>
           </div>
           <TestimonialSection testimonials={testimonials} />

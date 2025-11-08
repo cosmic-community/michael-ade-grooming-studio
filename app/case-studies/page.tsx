@@ -2,8 +2,8 @@ import { getCaseStudies } from '@/lib/cosmic'
 import CaseStudyCard from '@/components/CaseStudyCard'
 
 export const metadata = {
-  title: 'Case Studies - Marcus J. Grooming Studio',
-  description: 'View our transformation case studies showcasing before and after results from our grooming services.',
+  title: 'Case Studies - Hair Braiding & Styling Studio',
+  description: 'View our transformation case studies showcasing before and after results from our braiding and styling services.',
 }
 
 export default async function CaseStudiesPage() {
@@ -15,7 +15,7 @@ export default async function CaseStudiesPage() {
         <div className="text-center mb-16">
           <h1 className="text-5xl font-bold mb-4">Case Studies</h1>
           <p className="text-gray-400 text-xl max-w-3xl mx-auto">
-            Real transformations from our studio. See the results we achieve for our clients.
+            Real transformations from our studio. See the beautiful results we create for our clients.
           </p>
         </div>
         

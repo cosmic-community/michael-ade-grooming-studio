@@ -8,8 +8,8 @@ import CosmicBadge from '@/components/CosmicBadge'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Marcus J. Grooming Studio - Where Style Meets Precision',
-  description: "Premium men's grooming services with over 15 years of experience. Expert cuts, styling, and personalized service in a professional atmosphere.",
+  title: 'Professional Hair Braiding & Styling Studio',
+  description: "Expert braiding and styling services for all hair types. Specializing in box braids, cornrows, weaves, and natural hair care with personalized service.",
 }
 
 export default function RootLayout({

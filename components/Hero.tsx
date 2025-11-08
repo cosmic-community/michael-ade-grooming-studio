@@ -28,7 +28,7 @@ export default function Hero({ settings }: HeroProps) {
         {settings.metadata.whatsapp_number && (
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href={`https://wa.me/${settings.metadata.whatsapp_number.replace(/[^0-9]/g, '')}?text=${encodeURIComponent(settings.metadata.booking_message || 'Hi! I would like to book an appointment.')}`}
+              href={`https://wa.me/${settings.metadata.whatsapp_number.replace(/[^0-9]/g, '')}?text=${encodeURIComponent(settings.metadata.booking_message || 'Hi! I would like to book an appointment for hair braiding.')}`}
               target="_blank"
               rel="noopener noreferrer"
               className="px-8 py-4 bg-primary text-secondary rounded-full font-bold text-lg hover:bg-primary-dark transition-colors inline-block"

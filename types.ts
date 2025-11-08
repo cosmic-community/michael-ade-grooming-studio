@@ -1,4 +1,4 @@
-// Cosmic object types for Marcus J. Grooming Studio
+// Cosmic object types for Hair Braiding & Styling Studio
 
 interface CosmicObject {
   id: string;

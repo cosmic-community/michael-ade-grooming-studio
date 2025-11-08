@@ -19,11 +19,11 @@ export default async function Header() {
               />
             ) : (
               <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center">
-                <span className="text-secondary font-bold text-xl">M</span>
+                <span className="text-secondary font-bold text-xl">H</span>
               </div>
             )}
             <div>
-              <h1 className="text-xl font-bold">{settings?.metadata.business_name || 'Grooming Studio'}</h1>
+              <h1 className="text-xl font-bold">{settings?.metadata.business_name || 'Hair Styling Studio'}</h1>
               {settings?.metadata.tagline && (
                 <p className="text-sm text-primary">{settings.metadata.tagline}</p>
               )}
@@ -33,11 +33,11 @@ export default async function Header() {
           <div className="hidden md:flex items-center gap-8">
             <Link href="/#services" className="hover:text-primary">Services</Link>
             <Link href="/#team" className="hover:text-primary">Team</Link>
-            <Link href="/case-studies" className="hover:text-primary">Case Studies</Link>
+            <Link href="/case-studies" className="hover:text-primary">Gallery</Link>
             <Link href="/#testimonials" className="hover:text-primary">Reviews</Link>
             {settings?.metadata.whatsapp_number && (
               <a
-                href={`https://wa.me/${settings.metadata.whatsapp_number.replace(/[^0-9]/g, '')}?text=${encodeURIComponent(settings.metadata.booking_message || 'Hi! I would like to book an appointment.')}`}
+                href={`https://wa.me/${settings.metadata.whatsapp_number.replace(/[^0-9]/g, '')}?text=${encodeURIComponent(settings.metadata.booking_message || 'Hi! I would like to book an appointment for hair braiding.')}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-6 py-2 bg-primary text-secondary rounded-full font-semibold hover:bg-primary-dark transition-colors"

@@ -2,8 +2,8 @@ import { getServices } from '@/lib/cosmic'
 import ServiceCard from '@/components/ServiceCard'
 
 export const metadata = {
-  title: 'Services - Marcus J. Grooming Studio',
-  description: 'Explore our professional grooming services including haircuts, beard grooming, styling, and more.',
+  title: 'Services - Hair Braiding & Styling Studio',
+  description: 'Explore our professional braiding and styling services including box braids, cornrows, weaves, natural hair care, and more.',
 }
 
 export default async function ServicesPage() {
@@ -15,8 +15,8 @@ export default async function ServicesPage() {
         <div className="text-center mb-16">
           <h1 className="text-5xl font-bold mb-4">Our Services</h1>
           <p className="text-gray-400 text-xl max-w-3xl mx-auto">
-            Premium grooming services delivered by experienced professionals. 
-            Each service includes a consultation to ensure you get the perfect look.
+            Premium braiding and styling services for all hair types. 
+            Each service includes a consultation to create the perfect look for you.
           </p>
         </div>
         
